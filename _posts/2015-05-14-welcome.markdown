@@ -5,4 +5,4 @@ date:   2015-05-14 00:35:34
 categories: posts
 ---
 
-![Pythagorean Win Expectation vs. True Outcome]({site.baseurl}/assets/img/mlb_pyth.png)
+![Pythagorean Win Expectation vs. True Outcome]({{site.baseurl}}/assets/img/mlb_pyth.png)
