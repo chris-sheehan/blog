@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-About two years late, but finally got around to making a Jekyll blog to post my work.
+My last venture into blogging fizzled out pretty quickly under time constraints and complaints about the content, so I've been hesitant to get back into it. I'm finally biting the bullet and starting back up again, but I'm going to stay within the confines of "snackable" posts.
