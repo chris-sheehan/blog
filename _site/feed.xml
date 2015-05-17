@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog With a Dog</title>
+    <description>A site (mostly) about sports data and random other analyses using Python and probably some Excel. 
+</description>
+    <link>localhost:4000/</link>
+    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 May 2015 19:00:31 -0400</pubDate>
+    <lastBuildDate>Sun, 17 May 2015 19:00:31 -0400</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>NBA Teams: Age vs. SRS</title>
+        <description>&lt;p&gt;I saw a chart a while back comparing beisbol teams’ expected win totals to their team ages. The idea was to find:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;teams who were expected to lose a ton of games and it would be OK because they are young and “up and coming”.&lt;/li&gt;
+  &lt;li&gt;teams who were expected to lose a ton of games and it’s a huge problem because they’re old and getting older.&lt;/li&gt;
+  &lt;li&gt;teams who were expected to win a lot of games and damn well better because they, too, are old and it is now or never.&lt;/li&gt;
+  &lt;li&gt;teams who were expected to win a lot of games and should continue to do so for a while with a young core.&lt;/li&gt;
+  &lt;li&gt;a bunch of other teams in less extreme situations. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So that had me wondering what a similar look at the NBA might show. As a Warriors fan, I’ve spent this season hearing a lot of talk about how the Dubs are set up for long term success with a yound core of players. This sort of optimism is completely foreign to me, and so I spent the season looking for reasons why this nonsense. This chart does not do that.&lt;/p&gt;
+
+&lt;h1 id=&quot;nba-teams-age-vs-srsassetsimgnba-age-srspng&quot;&gt;&lt;img src=&quot;/assets/img/nba-age-srs.png&quot; alt=&quot;NBA Teams: Age vs. SRS&quot; /&gt;&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.basketball-reference.com/blog/?p=39&quot; target=&quot;_blank&quot;&gt;SRS&lt;/a&gt; is simply taken from the teams’ regular season performance as calculated by basketball-reference.com. The age of each team is a weighted average based on players’ minutes played during the regular season.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 May 2015 14:35:00 -0400</pubDate>
+        <link>localhost:4000/posts/2015/05/15/nba-age-srs.html</link>
+        <guid isPermaLink="true">localhost:4000/posts/2015/05/15/nba-age-srs.html</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>Pythagorean Win Expectation vs. True Outcome</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/mlb_pyth.png&quot; alt=&quot;Pythagorean Win Expectation vs. True Outcome&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 May 2015 20:35:34 -0400</pubDate>
+        <link>localhost:4000/posts/2015/05/13/welcome.html</link>
+        <guid isPermaLink="true">localhost:4000/posts/2015/05/13/welcome.html</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+  </channel>
+</rss>
