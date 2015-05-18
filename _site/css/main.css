@@ -1,3 +1,4 @@
+/*$background-color: #E0E0E0;*/
 /**
  * Reset some basic elements
  */
@@ -16,7 +17,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #333333;
-  background-color: #E0E0E0;
+  background-color: #FFFEF5;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -76,8 +77,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #D8D8D8;
-  border-left: 4px solid white;
+  color: #5E5E5E;
+  border-left: 4px solid #c4c4c4;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -91,7 +92,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  color: #E0E0E0;
+  color: #FFFEF5;
   border-radius: 3px;
   background-color: #E0E0E0; }
 
@@ -140,13 +141,13 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #D8D8D8; }
+    fill: #5E5E5E; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #989898;
+  border-top: 5px solid #1e1e1e;
   /*border-bottom: 1px solid $grey-color-light;*/
   min-height: 56px;
   position: relative; }
@@ -175,8 +176,8 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #E0E0E0;
-      border: 1px solid white;
+      background-color: #FFFEF5;
+      border: 1px solid #c4c4c4;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -191,7 +192,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #989898; }
+            fill: #1e1e1e; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -228,7 +229,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #D8D8D8;
+  color: #5E5E5E;
   margin-left: -15px; }
 
 .footer-col {
@@ -280,7 +281,7 @@ pre {
 
 .post-meta {
   font-size: 14px;
-  color: #D8D8D8; }
+  color: #5E5E5E; }
 
 .post-link {
   display: block;
