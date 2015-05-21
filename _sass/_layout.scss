@@ -276,3 +276,7 @@ div#corner_pop img {
 }
 /********  /Leesi Anchor Pic  ********/
 
+
+@include media-query($on-palm) {
+    div#life {display: none;}
+}
