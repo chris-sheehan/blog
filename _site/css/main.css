@@ -36,6 +36,11 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
+img#head-pic {
+  max-width: 150px;
+  display: block;
+  margin-bottom: 10px; }
+
 /**
  * Figures
  */
@@ -319,6 +324,35 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+/********  Life   ********/
+div#life {
+  width: 160px;
+  overflow: hidden;
+  margin: 0 auto 0px auto;
+  background: #C3C3C3;
+  position: fixed;
+  top: 5px;
+  left: 5px; }
+
+div#life * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+div.cell {
+  width: 10px;
+  height: 10px;
+  display: inline;
+  float: left;
+  /*border-left: 1px solid #242425;
+  border-bottom: 1px solid #242425; */
+  border: 1px solid #FFFEF5;
+  background: #C3C3C3; }
+
+div.cell.on {
+  background: #242425; }
+
+/********  /Life   ********/
 /********  Leesi Anchor Pic   ********/
 div#corner_pop img {
   width: 125px;

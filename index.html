@@ -1,5 +1,8 @@
 ---
 layout: default
+rows: 16
+cells: 256
+cell_size: 10
 ---
 
 <div class="home">
@@ -17,3 +20,87 @@ layout: default
   </ul>
 
 </div>
+<div id='life'>
+  <!-- cells -->
+  {% for cell in (1...{{page.cells}}) %}
+    <div class='cell' id='{{cell}}'>&nbsp;</div>
+  {% endfor %}
+</div>
+
+
+<script type='text/javascript'>
+
+  $(document).ready(function() {
+    rows = {{page.rows}};
+    generations = 0;
+    populate();
+    if (screen.width > 900) {
+      sec = .25
+      window.setInterval(function(){take_step()}, sec*1000);
+    }
+
+    $('div#life div.cell').on('click', function() {
+      window.setInterval(function(){take_step()}, 10000*1000);
+    });
+  });
+  
+  var populate = function() {
+    popRate = 0.25;
+    var roll = 0;
+    $('div#life').find('div.cell').each(function() {
+      roll = Math.random();
+      if (roll <= popRate) {
+        var $cell = $(this);
+        $cell.addClass('on');
+      }
+    });
+  }
+  
+  var count_neighbors = function(id) {
+    
+    id = parseInt(id);
+    //nearby = [id-(rows+1),id-(rows),id-(rows-1),id-1,id+1,id+(rows-1),id+(rows),id+(rows+1)];
+    last_row = (rows*rows)-rows;
+    nearby = [];
+    
+    if (id > rows && id!=1 && id%rows != 1) {nearby.push(id-(rows+1))};   // UL
+    if (id > rows) {nearby.push(id-rows)};          // UM
+    if (id > rows && id%rows !=0) {nearby.push(id-(rows-1))};     // UR
+    if (id%rows != 1) {nearby.push(id-1)};          // L
+    if (id%rows != 0) {nearby.push(id+1)};          // R
+    if (id <=last_row && id%rows != 1) {nearby.push(id+(rows-1))};    // BL
+    if (id <=last_row) {nearby.push(id+rows)};        // BM
+    if (id <=last_row && id%rows !=0) {nearby.push(id+(rows+1))};     // BR
+
+    neighbors = 0;
+    for (i = 0 ; i < nearby.length ; i++) {
+      if ($('div#'+ nearby[i]).hasClass('on')) {
+        neighbors++;
+      }
+    }
+    return neighbors;
+  }
+  
+  var take_step = function() {
+    generations++;
+    var turn_on = [];
+    var turn_off = [];
+    var toggle = [];
+    $('div#life').find('div.cell').each(function() {
+      var $cell = $(this);
+      neighbors = count_neighbors($cell.attr('id'));
+      str ='Cell '+$cell.attr('id')+' - '+neighbors;
+      if ($cell.hasClass('on')) { // if live
+        if(neighbors < 2 || neighbors >3) {toggle.push($cell.attr('id'));} 
+      } else { // if dead 
+        if(neighbors == 3) {toggle.push($cell.attr('id'));}
+      }
+    });
+    changes = toggle.length
+    for (i = 0; i < changes; i++) {
+      $('#'+toggle[i]).toggleClass('on');
+    }
+    
+    
+  }
+</script>

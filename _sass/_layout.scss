@@ -242,6 +242,28 @@
     }
 }
 
+/********  Life   ********/
+div#life {
+    width: 160px;
+    overflow: hidden; 
+    margin: 0 auto 0px auto; 
+    background: #C3C3C3; 
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+div#life * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+div.cell {
+    width: 10px; height: 10px; 
+    display: inline; 
+    float: left; 
+    /*border-left: 1px solid #242425;
+    border-bottom: 1px solid #242425; */
+    border: 1px solid #FFFEF5;
+    background: #C3C3C3;}
+div.cell.on {background: #242425;}
+/********  /Life   ********/
 
 
 /********  Leesi Anchor Pic   ********/
@@ -253,3 +275,4 @@ div#corner_pop img {
     left: 0px;
 }
 /********  /Leesi Anchor Pic  ********/
+
