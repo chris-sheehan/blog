@@ -25,5 +25,3 @@ The <a href= 'http://www.basketball-reference.com/blog/?p=39' target = '_blank'>
 * Somehow, I'm not terribly worried the Spurs, despite being the second oldest team in the league; I would be considerably more worried about the Clippers if I cared about LA sports.
 
 Obviously, the qualifier attached to all of this is we have no idea what rosters will look like for a lot of teams, especially those on the older end of spectrum.
-
-Exactly 2000 words.
