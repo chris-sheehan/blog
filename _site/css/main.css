@@ -361,6 +361,9 @@ div#corner_pop img {
   left: 0px; }
 
 /********  /Leesi Anchor Pic  ********/
+@media screen and (max-width: 600px) {
+  div#life {
+    display: none; } }
 /**
  * Syntax highlighting styles
  */
