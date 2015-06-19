@@ -18,4 +18,4 @@ Given the latter point, I'm not so sure "going small" was terribly bold, or even
 
 
 What is interesting is the age of this Warriors team. Weighted for minutes played, this was the fourth youngest championship in NBA history, and the youngest in 35 years.
-# ![NBA Champions: Age]({{site.baseurl}}/assets/img/nba_champs_age.png)
+![NBA Champions: Age]({{site.baseurl}}/assets/img/nba_champs_age.png)
