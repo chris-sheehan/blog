@@ -5,7 +5,9 @@ date:   2015-06-27 13:00:00
 categories: posts
 ---
 
-A quick look at beisbol this week as we approach the halfway point of the season. A little over a month ago, I was scanning the MLB standings when I saw the A's were ~6.6 games below their pythagorean expectation -- only 44 games into the season. The Blue Jays were second in "games lost to luck" at ~4.2 games under expected. Revisiting the topic 30+ games later into the season, surely we would see these figures at least start to regress to the mean...nope. Both Oakland and Toronto have increased their games lost to luck by 2+ games each, to ~8.9 and ~6.4 respectively, all the while increasing their season Win % by approximately 10 percentage pts each. Here are teams' wins compared to pythagorean expectation through yesterday.
+A quick look at beisbol this week as we approach the halfway point of the season. A little over a month ago, I was scanning the MLB standings when I saw the A's were ~6.6 games below their pythagorean expectation -- only 44 games into the season. The Blue Jays were second in "games lost to luck" at ~4.2 games under expected. Revisiting the topic 30+ games later into the season, surely we would see these figures at least start to regress to the mean...
+
+Nope. Both Oakland and Toronto have increased their games lost to luck by 2+ games each, to ~8.9 and ~6.4 respectively, all the while increasing their season Win % by approximately 10 percentage pts each. Here are teams' wins compared to pythagorean expectation through yesterday.
 
 ![MLB Luck 2015-06-26]({{site.baseurl}}/assets/img/mlb_luck062715.png)
 
