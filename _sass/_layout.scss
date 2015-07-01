@@ -279,4 +279,5 @@ div#corner_pop img {
 
 @include media-query($on-palm) {
     div#life {display: none;}
+    div#corner_pop img {display: none;}
 }
