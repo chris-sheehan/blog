@@ -19,6 +19,7 @@ The results were not great for v1. There appears to be downward pattern (higher 
 
 
 Despite the crappy R^2, there's I feel like there's some interesting things to look into here, so hopefully I'll do a follow-up soon. A few things that'll likely cover:
+
 * Using proper box score data instead of shot logs, which omit fouls and so also FT.
 * Exploring shot/pts distribution vs. offensive efficiency rather than winning % or margin of victory.
 * "Crunch" time offensive efficiency vs. earlier in games.
