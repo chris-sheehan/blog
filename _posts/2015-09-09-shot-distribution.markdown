@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shot Distribution"
+title:  "NBA Shot Distribution and Winning"
 date:   2015-09-09 22:55:00
 categories: posts
 ---
